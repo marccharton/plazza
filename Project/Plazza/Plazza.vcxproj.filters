@@ -30,19 +30,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Windows\mainWIN.cpp">
-      <Filter>Source Files\Windows</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Unix\mainUNI.cpp">
-      <Filter>Source Files\Unix</Filter>
-    </ClCompile>
     <ClCompile Include="src\Main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Windows\CFSWindows.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Unix\CFSUnix.cpp">
+      <Filter>Source Files\Unix</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="assets\Recipes.txt">
       <Filter>Resource Files</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\Windows\CFSWindows.hpp">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Unix\CFSUnix.hpp">
+      <Filter>Header Files\Unix</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\IFSAbstract.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
