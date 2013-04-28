@@ -1,15 +1,1 @@
-﻿Build started 25/04/2013 21:07:10.
-     1>Project "C:\Users\Marc\Documents\Depots\plazza\Project\Plazza\Plazza.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
-         Creating "Debug\Plazza.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\Main.cpp src\Windows\CFSWindows.cpp
-         CFSWindows.cpp
-     1>c:\users\marc\documents\depots\plazza\project\plazza\src\windows\cfswindows.cpp : fatal error C1033: cannot open program database 'c:\users\marc\documents\depots\plazza\project\plazza\debug\vc100.idb'
-         Main.cpp
-         Generating Code...
-     1>Done Building Project "C:\Users\Marc\Documents\Depots\plazza\Project\Plazza\Plazza.vcxproj" (build target(s)) -- FAILED.
-
-Build FAILED.
-
-Time Elapsed 00:00:06.67
+﻿

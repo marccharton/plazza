@@ -37,8 +37,14 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <SourcePath>$(SourcePath)</SourcePath>
-    <IncludePath>$(IncludePath)</IncludePath>
+    <SourcePath>$(ProjectDir)\src\Windows;$(ProjectDir)\src;$(SourcePath)</SourcePath>
+    <IncludePath>$(ProjectDir)\inc\Windows\;$(ProjectDir)\inc;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(ProjectDir)\inc\Windows\;$(ProjectDir)\inc;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <SourcePath>$(ProjectDir)\src\Windows;$(ProjectDir)\src;$(SourcePath)</SourcePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

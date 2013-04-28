@@ -10,7 +10,7 @@ bool	CFSWindows::FSOpen(const std::string &sPath)
 {
   std::wstring  wsPath = StringToWString(sPath);
 
-  HANDLE	hFile = CreateFileA(wsPath.c_str(),
+  HANDLE	hFile = CreateFileA(sPath.c_str(),
 							   GENERIC_READ | GENERIC_WRITE,
 							   FILE_SHARE_READ,
 							   NULL,
