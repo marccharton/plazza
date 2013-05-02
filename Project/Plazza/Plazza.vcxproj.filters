@@ -39,6 +39,9 @@
     <ClCompile Include="src\Unix\CFSUnix.cpp">
       <Filter>Source Files\Unix</Filter>
     </ClCompile>
+    <ClCompile Include="src\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="assets\Recipes.txt">
@@ -53,6 +56,9 @@
       <Filter>Header Files\Unix</Filter>
     </ClInclude>
     <ClInclude Include="inc\IFSAbstract.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Timer.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
